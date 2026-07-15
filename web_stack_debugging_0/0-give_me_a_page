@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-# you just have to restart apache
-sudo service apache2 restart
+# Start Apache and display its running status
+echo "Hello Holberton" > /var/www/html/index.html
+service apache2 start
+service apache2 status
